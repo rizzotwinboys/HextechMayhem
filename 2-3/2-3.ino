@@ -8,7 +8,7 @@
 #define STARTBUTTON 8
 
 #define BEAT 250
-#define NUMBEROFROWS 8 * 18 // beats * measures
+#define NUMBEROFROWS 8 * 40 // beats * measures
 #define NUMBEROFROWS2 16 * 1 // beats * measures
 
 unsigned int buttonInputs[NUMBEROFROWS] = {
@@ -173,7 +173,205 @@ unsigned int buttonInputs[NUMBEROFROWS] = {
   GREEN, // 3
   BLUE,
   WHITE, // 4
+  BLUE,
+  // 19
+  GREEN, // 1
   SKIP,
+  WHITE, // 2
+  BLUE,
+  GREEN, // 3
+  BLUE,
+  WHITE, // 4
+  SKIP,
+  // 20
+  GREEN, // 1
+  SKIP,
+  WHITE, // 2
+  BLUE,
+  GREEN, // 3
+  BLUE,
+  WHITE, // 4
+  BLUE,
+  // 21
+  GREEN, // 1
+  SKIP,
+  WHITE, // 2
+  SKIP,
+  GREEN, // 3
+  SKIP,
+  WHITE, // 4
+  SKIP,
+  // 22
+  GREEN, // 1
+  SKIP,
+  WHITE, // 2
+  SKIP,
+  WHITE, // 3
+  SKIP,
+  WHITE, // 4
+  SKIP,
+  // 23
+  GREEN, // 1
+  SKIP,
+  WHITE, // 2
+  SKIP,
+  GREEN, // 3
+  SKIP,
+  WHITE, // 4
+  SKIP,
+  // 24
+  WHITE, // 1
+  SKIP,
+  WHITE, // 2
+  SKIP,
+  WHITE, // 3
+  SKIP,
+  WHITE, // 4
+  WHITE,
+  // 25
+  WHITE, // 1
+  SKIP,
+  BLUE, // 2
+  SKIP,
+  WHITE, // 3
+  SKIP,
+  SKIP, // 4
+  GREEN,
+  // 26
+  WHITE, // 1
+  SKIP,
+  BLUE, // 2
+  SKIP,
+  WHITE, // 3
+  SKIP,
+  SKIP, // 4
+  GREEN,
+  // 27
+  WHITE, // 1
+  SKIP,
+  BLUE, // 2
+  SKIP,
+  WHITE, // 3
+  SKIP,
+  SKIP, // 4
+  GREEN,
+  // 28
+  WHITE, // 1
+  SKIP,
+  BLUE, // 2
+  SKIP,
+  WHITE, // 3
+  SKIP,
+  SKIP, // 4
+  GREEN,
+  // 29
+  WHITE, // 1
+  SKIP,
+  BLUE, // 2
+  SKIP,
+  WHITE, // 3
+  SKIP,
+  SKIP, // 4
+  GREEN,
+  // 30
+  WHITE, // 1
+  SKIP,
+  BLUE, // 2
+  SKIP,
+  WHITE, // 3
+  SKIP,
+  SKIP, // 4
+  GREEN,
+  // 31
+  WHITE, // 1
+  SKIP,
+  GREEN, // 2
+  SKIP,
+  WHITE, // 3
+  SKIP,
+  GREEN, // 4
+  SKIP,
+  // 32
+  WHITE, // 1
+  SKIP,
+  GREEN, // 2
+  SKIP,
+  WHITE, // 3
+  WHITE,
+  WHITE, // 4
+  WHITE,
+  // 33
+  GREEN, // 1
+  SKIP,
+  WHITE, // 2
+  BLUE,
+  GREEN, // 3
+  BLUE,
+  WHITE, // 4
+  SKIP,
+  // 34
+  GREEN, // 1
+  SKIP,
+  WHITE, // 2
+  BLUE,
+  WHITE, // 3
+  BLUE,
+  WHITE, // 4
+  BLUE,
+  // 35
+  GREEN, // 1
+  SKIP,
+  WHITE, // 2
+  BLUE,
+  GREEN, // 3
+  BLUE,
+  WHITE, // 4
+  SKIP,
+  // 36
+  GREEN, // 1
+  SKIP,
+  WHITE, // 2
+  BLUE,
+  WHITE, // 3
+  BLUE,
+  WHITE, // 4
+  BLUE,
+  // 37
+  GREEN, // 1
+  SKIP,
+  WHITE, // 2
+  BLUE,
+  GREEN, // 3
+  BLUE,
+  WHITE, // 4
+  SKIP,
+  // 38
+  GREEN, // 1
+  SKIP,
+  WHITE, // 2
+  BLUE,
+  WHITE, // 3
+  BLUE,
+  WHITE, // 4
+  BLUE,
+  // 39
+  WHITE, // 1
+  SKIP,
+  BLUE, // 2
+  SKIP,
+  WHITE, // 3
+  SKIP,
+  BLUE, // 4
+  SKIP,
+  // 40
+  WHITE, // 1
+  SKIP,
+  BLUE, // 2
+  SKIP,
+  WHITE, // 3
+  SKIP,
+  WHITE, // 4
+  BLUE,
 };
 
 unsigned int buttonInputs2[NUMBEROFROWS2] = {
